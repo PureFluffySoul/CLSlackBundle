@@ -16,9 +16,15 @@
       "email": "info@casleentfaar.com"
     }
   ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:PureFluffySoul/slack.git"
+    }
+  ],
   "require": {
     "php": ">=5.5",
-    "cleentfaar/slack": "~0.20",
+    "spiks/slack": "dev-master",
     "symfony/framework-bundle": "^2.3|^3.0|^4.0"
   },
   "require-dev": {
